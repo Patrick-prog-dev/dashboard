@@ -83,16 +83,16 @@
       <h5 class="text-center font-weight-bold text-body mt-5 mb-4">Featured on</h5>
       <div class="row">
         <div class="col-md-6 col-lg-3 mb-4 mt-lg-0 text-center">
-          <img class="w-70" src="../assets/img/logos/figma.png" alt="figma" />
+          <img class="w-70" src="{{ asset('assets/images/logos/figma.png')}}" alt="figma" />
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mt-lg-0 text-center">
-          <img class="w-70" src="../assets/img/logos/product-hunt.png" alt="product" />
+          <img class="w-70" src="{{ asset('assets/images/logos/product-hunt.png')}}" alt="product" />
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mt-lg-0 text-center">
-          <img class="w-70" src="../assets/img/logos/github.png" alt="product" />
+          <img class="w-70" src="{{ asset('assets/images/logos/github.png')}}" alt="product" />
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mt-lg-0 text-center">
-          <img class="w-70" src="../assets/img/logos/hacker.png" alt="product" />
+          <img class="w-70" src="{{ asset('assets/images/logos/hacker.png')}}" alt="product" />
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/bootstrap5.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/bootstrap5.png')}}">
               </div>
               <h5 class="py-2 text-lg">Bootstrap 5</h5>
             </div>
@@ -138,7 +138,7 @@
           <a class="w-100 h-100" href="https://github.com/creativetimofficial/material-tailwind-dashboard-react" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/tailwind.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/tailwind.png')}}">
               </div>
               <h5 class="py-2 text-lg">Tailwind</h5>
             </div>
@@ -148,7 +148,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard-react" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/react.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/react.png')}}">
               </div>
               <h5 class="py-2 text-lg">React</h5>
             </div>
@@ -158,7 +158,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard-angular2" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/angular.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/angular.png')}}">
               </div>
               <h5 class="py-2 text-lg">Angular</h5>
             </div>
@@ -168,7 +168,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/vue-material-dashboard" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/vue.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/vue.png')}}">
               </div>
               <h5 class="py-2 text-lg">Vue.js</h5>
             </div>
@@ -180,7 +180,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard-laravel" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/laravel.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/laravel.png')}}">
               </div>
               <h5 class="py-2 text-lg">Laravel</h5>
             </div>
@@ -190,7 +190,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard/tree/bootstrap-4" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/bs4.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/bs4.png')}}">
               </div>
               <h5 class="py-2 text-lg">Bootstrap 4</h5>
             </div>
@@ -200,7 +200,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard/tree/bootstrap-3" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/bs3.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/bs3.png')}}">
               </div>
               <h5 class="py-2 text-lg">Bootstrap 3</h5>
             </div>
@@ -210,7 +210,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/nextjs-material-dashboard" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/next.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/next.png')}}">
               </div>
               <h5 class="py-2 text-lg">Next.js</h5>
             </div>
@@ -220,7 +220,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/vuetify-material-dashboard" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/vuetify.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/vuetify.png')}}">
               </div>
               <h5 class="py-2 text-lg">Vuetify</h5>
             </div>
@@ -259,7 +259,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard-django" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/django.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/django.png')}}">
               </div>
               <h5 class="py-2 text-lg">Django</h5>
             </div>
@@ -269,7 +269,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard-react-nodejs" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/nodejs.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/nodejs.png')}}">
               </div>
               <h5 class="py-2 text-lg">Node.js</h5>
             </div>
@@ -279,7 +279,7 @@
           <a class="h-100 w-100" href="https://github.com/creativetimofficial/material-dashboard-flask" target="_blank">
             <div class="border border-radius-lg mx-auto text-center">
               <div class="avatar rounded-circle bg-white shadow mx-auto mt-n4">
-                <img class="p-2" alt="Image placeholder" src="../assets/img/small-logos/campaign/flask.png">
+                <img class="p-2" alt="Image placeholder" src="{{ asset('assets/images/small-logos/campaign/flask.png')}}">
               </div>
               <h5 class="py-2 text-lg">Flask</h5>
             </div>
@@ -305,7 +305,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/alerts/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/alert-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/alert-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Alert</h6>
@@ -315,7 +315,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/buttons/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/button-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/button-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Button</h6>
@@ -325,7 +325,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/cards/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/card-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/card-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Card</h6>
@@ -337,7 +337,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/forms/material-dashboard#checkboxes" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/checkbox-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/checkbox-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Checkbox</h6>
@@ -347,7 +347,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/badge/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/chip-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/chip-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Chip</h6>
@@ -357,7 +357,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/modal/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/dialog-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/dialog-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Dialog</h6>
@@ -369,7 +369,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/buttons/material-dashboard#examples" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/icon-button-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/icon-button-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Icon Button</h6>
@@ -379,7 +379,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/forms/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/input-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/input-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Input</h6>
@@ -389,7 +389,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/dropdowns/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/menu-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/menu-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Menu</h6>
@@ -401,7 +401,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/navbar/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/navbar-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/navbar-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Navbar</h6>
@@ -411,7 +411,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/pagination/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/pagination-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/pagination-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Pagination</h6>
@@ -421,7 +421,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/popovers/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/popover-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/popover-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Popover</h6>
@@ -433,7 +433,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/progress/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/progress-bar-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/progress-bar-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Progress Bar</h6>
@@ -443,7 +443,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/forms/material-dashboard#radios" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/radio-button-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/radio-button-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Radio Button</h6>
@@ -453,7 +453,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/choices/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/select-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/select-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Select</h6>
@@ -465,7 +465,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/forms/material-dashboard#toggles" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/switch-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/switch-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Switch</h6>
@@ -475,7 +475,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/navs/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/tabs-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/tabs-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Tabs</h6>
@@ -485,7 +485,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/forms/material-dashboard#form-controls" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/text-area-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/text-area-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Textarea</h6>
@@ -497,7 +497,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/tooltips/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/tooltip-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/tooltip-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Tooltip</h6>
@@ -507,7 +507,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/typography/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/components/typography-thumbnail.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/components/typography-thumbnail.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Typography</h6>
@@ -532,7 +532,7 @@
             <div class="col-md-4 mt-md-0">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/automotive.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/automotive.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/automotive.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Automotive</h6>
@@ -542,7 +542,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/account/billing.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/billing.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/billing.jpg" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Billing Information</h6>
@@ -552,7 +552,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/charts.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/charts.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/charts.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Cards with Chart</h6>
@@ -564,7 +564,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/profile/messages.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/conversation.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/conversation.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Conversation History</h6>
@@ -574,7 +574,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/account/invoice.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/invoice.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/invoice.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Invoice History</h6>
@@ -584,7 +584,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/projects/general.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/project.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/project.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Project List</h6>
@@ -596,7 +596,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/projects/timeline.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/project-list.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/project-list.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Project Tables</h6>
@@ -606,7 +606,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/pricing-page.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/pricing.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/pricing.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Pricing</h6>
@@ -616,7 +616,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/sales.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/sales.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/sales.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Sales</h6>
@@ -628,7 +628,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/discover.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/user-settings.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/user-settings.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Story Header</h6>
@@ -638,7 +638,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/ecommerce/orders/list.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/stats.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/stats.jpg" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Transaction History</h6>
@@ -648,7 +648,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/users/new-user.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/user-settings.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/user-settings.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">User Profile</h6>
@@ -660,7 +660,7 @@
             <div class="col-md-4 mt-md-0 mt-3">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/ecommerce/products/products-list.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/blocks/user-tables.jpg" alt="img" loading="lazy">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/blocks/user-tables.jpg')}}" alt="img" loading="lazy">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">User Tables</h6>
@@ -685,7 +685,7 @@
             <div class="col-md-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/automotive.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/pages/automotive.jpg" alt="newsletter">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/pages/automotive.jpg')}}" alt="newsletter">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Automotive Page</h6>
@@ -695,7 +695,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/account/billing.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/pages/billing.png" alt="contact">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/pages/billing.png')}}" alt="contact">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Billing Page</h6>
@@ -705,7 +705,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/charts.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/cart.jpg" alt="forms">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/cart.jpg')}}" alt="forms">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Cart Product Page</h6>
@@ -717,7 +717,7 @@
             <div class="col-md-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/analytics.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/pages/analytics.jpg" alt="newsletter">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/pages/analytics.jpg')}}" alt="newsletter">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Analytics Dashboard Page</h6>
@@ -727,7 +727,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/account/invoice.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/invoice.jpg" alt="contact">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/invoice.jpg')}}" alt="contact">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Invoice Template</h6>
@@ -737,7 +737,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/projects/timeline.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/projects.jpg" alt="forms">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/projects.jpg')}}" alt="forms">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Project List</h6>
@@ -749,7 +749,7 @@
             <div class="col-md-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/projects/general.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/pages/tables.jpg" alt="newsletter">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/pages/tables.jpg')}}" alt="newsletter">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Project Tables</h6>
@@ -759,7 +759,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/pricing-page.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/pricing.jpg" alt="contact">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/pricing.jpg')}}" alt="contact">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Pricing Page</h6>
@@ -769,7 +769,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/sales.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/sales.jpg" alt="forms">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/sales.jpg')}}" alt="forms">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Sales Page</h6>
@@ -781,7 +781,7 @@
             <div class="col-md-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/ecommerce/referral.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/pages/referral.jpg" alt="newsletter">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/pages/referral.jpg')}}" alt="newsletter">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Referral Program Page</h6>
@@ -791,7 +791,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/ecommerce/orders/list.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/projects.jpg" alt="contact">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/projects.jpg')}}" alt="contact">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Transaction Page</h6>
@@ -801,7 +801,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/users/reports.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/user-account.jpg" alt="forms">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/user-account.jpg')}}" alt="forms">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">User Account Page</h6>
@@ -813,7 +813,7 @@
             <div class="col-md-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/profile/overview.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/pages/user-profile.jpg" alt="newsletter">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/pages/user-profile.jpg')}}" alt="newsletter">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Users Page</h6>
@@ -823,7 +823,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/discover.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/discover.jpg" alt="contact">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/discover.jpg')}}" alt="contact">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Discover</h6>
@@ -833,7 +833,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://demos.creative-tim.com/material-dashboard-pro/pages/pages/profile/messages.html" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 m-auto" src="../assets/img/campaign/pages/messages.jpg" alt="forms">
+                  <img class="w-100 m-auto" src="{{ asset('assets/images/campaign/pages/messages.jpg')}}" alt="forms">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Chat Page</h6>
@@ -858,7 +858,7 @@
             <div class="col-md-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/countup-js/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/count-up-thumbnail.jpg" alt="alerts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/count-up-thumbnail.jpg')}}" alt="alerts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Count Up.js</h6>
@@ -868,7 +868,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/charts/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/chart-thumbnail.jpg" alt="toasts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/chart-thumbnail.jpg')}}" alt="toasts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Chart.js</h6>
@@ -878,7 +878,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/choices/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/choices-thumbnail.jpg" alt="popovers">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/choices-thumbnail.jpg')}}" alt="popovers">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Choices</h6>
@@ -890,7 +890,7 @@
             <div class="col-md-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/datatables/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/datatables-thumbnail.jpg" alt="alerts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/datatables-thumbnail.jpg')}}" alt="alerts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Datatables</h6>
@@ -900,7 +900,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/datepicker/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/datepicker-thumbnail.jpg" alt="toasts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/datepicker-thumbnail.jpg')}}" alt="toasts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Datepicker</h6>
@@ -910,7 +910,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/dropzone/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/dropzone-thumbnail.jpg" alt="popovers">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/dropzone-thumbnail.jpg')}}" alt="popovers">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Dropzone</h6>
@@ -922,7 +922,7 @@
             <div class="col-md-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/fullcalendar/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/fullcalendar-thumbnail.jpg" alt="alerts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/fullcalendar-thumbnail.jpg')}}" alt="alerts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Fullcalendar</h6>
@@ -932,7 +932,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/kanban/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/kanban-thumbnail.jpg" alt="toasts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/kanban-thumbnail.jpg')}}" alt="toasts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Kanban</h6>
@@ -942,7 +942,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/analytics-tool/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/nepcha-thumbnail.jpg" alt="popovers">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/nepcha-thumbnail.jpg')}}" alt="popovers">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Nepcha</h6>
@@ -954,7 +954,7 @@
             <div class="col-md-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/photo-swipe/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/photoswipe-thumbnail.jpg" alt="alerts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/photoswipe-thumbnail.jpg')}}" alt="alerts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Photo Swipe</h6>
@@ -964,7 +964,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/quill/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/quill-thumbnail.jpg" alt="toasts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/quill-thumbnail.jpg')}}" alt="toasts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Quill</h6>
@@ -974,7 +974,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/sliders/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/sliders-thumbnail.jpg" alt="popovers">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/sliders-thumbnail.jpg')}}" alt="popovers">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Sliders</h6>
@@ -986,7 +986,7 @@
             <div class="col-md-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/sweet-alerts/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/sweet-alert-thumbnail.jpg" alt="alerts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/sweet-alert-thumbnail.jpg')}}" alt="alerts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Sweet alert</h6>
@@ -996,7 +996,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/datepicker/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/timepicker-thumbnail.jpg" alt="toasts">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/timepicker-thumbnail.')}}" alt="toasts">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Timepicker</h6>
@@ -1006,7 +1006,7 @@
             <div class="col-md-4 mt-md-0 mt-4">
               <a href="https://www.creative-tim.com/learning-lab/bootstrap/wizard/material-dashboard" target="_blank">
                 <div class="card shadow-lg move-on-hover min-height-140 max-height-140">
-                  <img class="w-100 my-auto" src="../assets/img/campaign/plugins/wizard-thumbnail.jpg" alt="popovers">
+                  <img class="w-100 my-auto" src="{{ asset('assets/images/campaign/plugins/wizard-thumbnail.jpg')}}" alt="popovers">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">Wizard</h6>
@@ -1020,7 +1020,7 @@
   </section>
   <section id="docs">
     <div class="container mt-sm-5">
-      <div class="page-header py-6 py-md-6 my-sm-3 mb-3 border-radius-xl" style="background-image: url('../assets/img/docs-section.png');" loading="lazy">
+      <div class="page-header py-6 py-md-6 my-sm-3 mb-3 border-radius-xl" style="background-image: url('{{ asset('assets/images/docs-section.png')}}');" loading="lazy">
         <span class="mask bg-gradient-dark"></span>
         <div class="container">
           <div class="row">
@@ -1294,7 +1294,7 @@
           </div>
         </div>
         <div class="col-lg-7 mt-5 mt-lg-0">
-          <img class="border-radius-xl shadow w-100" alt="Image Figma" src="../assets/img/material-dashboard-figma.jpg">
+          <img class="border-radius-xl shadow w-100" alt="Image Figma" src="{{ asset('assets/images/material-dashboard-figma.jpg')}}">
         </div>
       </div>
     </div>
@@ -1312,7 +1312,7 @@
         <div class="col-md-6 col-lg-6">
           <a href="https://www.material-tailwind.com/?ref=md-campaign" target="_blank">
             <div class="card card-plain">
-              <img class="min-height-200 max-height-200 img-material-tw border-radius-xl shadow-lg w-100 mb-3" src="../assets/img/campaign/material-tailwind.png" alt="product2" />
+              <img class="min-height-200 max-height-200 img-material-tw border-radius-xl shadow-lg w-100 mb-3" src="{{ asset('assets/images/campaign/material-tailwind.png')}}" alt="product2" />
               <h5>Material Tailwind Framework</h5>
               <p class="text-body">Easy to use components library for Tailwind CSS and Material Design.</p>
             </div>
@@ -1321,7 +1321,7 @@
         <div class="col-md-6 col-lg-3">
           <a href="https://www.creative-tim.com/design-system/material?ref=md-campaign" target="_blank">
             <div class="card card-plain">
-              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="../assets/img/campaign/design-system.png" alt="product1" />
+              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="{{ asset('assets/images/campaign/design-system.png')}}" alt="product1" />
               <h5>Design Systems</h5>
               <p class="text-body">Awesome design systems to create beautiful web projects.</p>
             </div>
@@ -1330,7 +1330,7 @@
         <div class="col-md-6 col-lg-3">
           <a href="https://www.creative-tim.com/builder?ref=md-campaign" target="_blank">
             <div class="card card-plain">
-              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="../assets/img/campaign/builder.png" alt="product3" />
+              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="{{ asset('assets/images/campaign/builder.png')}}" alt="product3" />
               <h5>Drag & Drop Builder</h5>
               <p class="text-body">Create website pages or admins for your business in minutes.</p>
             </div>
@@ -1341,7 +1341,7 @@
         <div class="col-md-6 col-lg-3">
           <a href="https://code-mentor.ai/?ref=md-campaign" target="_blank">
             <div class="card card-plain">
-              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="../assets/img/campaign/code-ai.png" alt="product1" />
+              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="{{ asset('assets/images/campaign/code-ai.png')}}" alt="product1" />
               <h5>Code Mentor AI</h5>
               <p class="text-body">Virtual teacher that uses AI to explain code.</p>
             </div>
@@ -1350,7 +1350,7 @@
         <div class="col-md-6 col-lg-3">
           <a href="https://www.creative-tim.com/product/headless-cms-with-laravel-json-api-pro?ref=md-campaign" target="_blank">
             <div class="card card-plain">
-              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="../assets/img/campaign/cms-laravel.jpg" alt="product2" />
+              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="{{ asset('assets/images/campaign/cms-laravel.jpg')}}" alt="product2" />
               <h5>Headless CMS Laravel</h5>
               <p class="text-body">Build APIs for all devices using JSON:API Standard</p>
             </div>
@@ -1359,7 +1359,7 @@
         <div class="col-md-6 col-lg-3">
           <a href="https://course-ui-ux.creative-tim.com/course/ux-design-fundamentals?ref=md-campaign" target="_blank">
             <div class="card card-plain">
-              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="../assets/img/campaign/courses.png" alt="product3" />
+              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="{{ asset('assets/images/campaign/courses.png')}}" alt="product3" />
               <h5>Courses</h5>
               <p class="text-body">Access the UI/UX course by Creative Tim.</p>
             </div>
@@ -1368,7 +1368,7 @@
         <div class="col-md-6 col-lg-3">
           <a href="https://nepcha.com/?ref=md-campaign" target="_blank">
             <div class="card card-plain">
-              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="../assets/img/campaign/nepcha.png" alt="product4" />
+              <img class="min-height-200 max-height-200 border-radius-xl shadow-lg w-100 mb-3" src="{{ asset('assets/images/campaign/nepcha.png')}}" alt="product4" />
               <h5>Nepcha Analytics</h5>
               <p class="text-body">Buy one and get lifetime access for each plan mentioned below.</p>
             </div>
@@ -1388,7 +1388,7 @@
                   <i class="fas fa-chevron-right text-xs ms-1"></i>
                 </a>
               </div>
-              <img class="w-50" src="../assets/img/campaign/book.png" alt="book">
+              <img class="w-50" src="{{ asset('assets/images/campaign/book.png" alt="book">
             </div>
           </div>
         </div>
@@ -1455,7 +1455,7 @@
                   </defs>
                 </svg>
                 <div class="author mt-4">
-                  <img src="../assets/img/ivana-square.jpg" alt="..." class="avatar rounded-circle shadow-lg">
+                  <img src="{{ asset('assets/images/ivana-square.jpg')}}" alt="..." class="avatar rounded-circle shadow-lg">
                   <div class="ms-2">
                     <span>Shailesh Kushwaha</span>
                     <div class="stats">
@@ -1483,7 +1483,7 @@
                   </defs>
                 </svg>
                 <div class="author mt-4">
-                  <img src="../assets/img/team-5.jpg" alt="..." class="avatar rounded-circle shadow-lg">
+                  <img src="{{ asset('assets/images/team-5.jpg')}}" alt="..." class="avatar rounded-circle shadow-lg">
                   <div class="ms-2">
                     <span>Shailesh Kushwaha</span>
                     <div class="stats">
@@ -1674,7 +1674,7 @@
 </div>
 <div class="container mt-n7">
   <section class="py-5 bg-dark-blue border-radius-xl position-relative overflow-hidden z-index-1">
-    <img src="../assets/img/campaign/wave.png" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-1">
+    <img src="{{ asset('assets/images/campaign/wave.png')}}" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-1">
     <div class="container position-relative z-index-2">
       <div class="row">
         <div class="col-lg-5 col-md-8 m-auto text-start">

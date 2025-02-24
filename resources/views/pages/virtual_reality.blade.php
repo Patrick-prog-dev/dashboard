@@ -4,91 +4,15 @@
   
   @section('content')
     
-  <div class="border-radius-xl mx-2 mx-md-3 position-relative" style="background-image: url('../assets/img/vr-bg.jpg'); background-size: cover;">
-    <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2  bg-white my-2" id="sidenav-main">
-      <div class="sidenav-header">
-        <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-        <a class="navbar-brand px-4 py-3 m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard " target="_blank">
-          <img src="../assets/img/logo-ct-dark.png" class="navbar-brand-img" width="26" height="26" alt="main_logo">
-          <span class="ms-1 text-sm text-dark">Creative Tim</span>
-        </a>
-      </div>
-      <hr class="horizontal dark mt-0 mb-2">
-      <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/dashboard.html">
-              <i class="material-symbols-rounded opacity-5">dashboard</i>
-              <span class="nav-link-text ms-1">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/tables.html">
-              <i class="material-symbols-rounded opacity-5">table_view</i>
-              <span class="nav-link-text ms-1">Tables</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/billing.html">
-              <i class="material-symbols-rounded opacity-5">receipt_long</i>
-              <span class="nav-link-text ms-1">Billing</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active bg-gradient-dark text-white" href="../pages/virtual-reality.html">
-              <i class="material-symbols-rounded opacity-5">view_in_ar</i>
-              <span class="nav-link-text ms-1">Virtual Reality</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/rtl.html">
-              <i class="material-symbols-rounded opacity-5">format_textdirection_r_to_l</i>
-              <span class="nav-link-text ms-1">RTL</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/notifications.html">
-              <i class="material-symbols-rounded opacity-5">notifications</i>
-              <span class="nav-link-text ms-1">Notifications</span>
-            </a>
-          </li>
-          <li class="nav-item mt-3">
-            <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-5">Account pages</h6>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/profile.html">
-              <i class="material-symbols-rounded opacity-5">person</i>
-              <span class="nav-link-text ms-1">Profile</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/sign-in.html">
-              <i class="material-symbols-rounded opacity-5">login</i>
-              <span class="nav-link-text ms-1">Sign In</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="../pages/sign-up.html">
-              <i class="material-symbols-rounded opacity-5">assignment</i>
-              <span class="nav-link-text ms-1">Sign Up</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="sidenav-footer position-absolute w-100 bottom-0 ">
-        <div class="mx-3">
-          <a class="btn btn-outline-dark mt-4 w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/overview/material-dashboard?ref=sidebarfree" type="button">Documentation</a>
-          <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/material-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a>
-        </div>
-      </div>
-    </aside>
+  <div class="border-radius-xl mx-2 mx-md-3 position-relative" style="background-image: ; background-size: cover;">
+ 
     <main class="main-content border-radius-lg h-100">
       <div class="section min-vh-85 position-relative transform-scale-0 transform-scale-md-7">
         <div class="container-fluid">
           <div class="row pt-10">
             <div class="col-lg-1 col-md-1 pt-5 pt-lg-0 ms-lg-5 text-center">
               <a href="javascript:;" class="avatar avatar-lg border-0 p-1" data-bs-toggle="tooltip" data-bs-placement="right" title="My Profile">
-                <img class="border-radius-lg" alt="Image placeholder" src="../assets/img/team-1.jpg">
+                <img class="border-radius-lg" alt="Image placeholder" src="{{ asset('assets/images/team-1.jpg')}}">
               </a>
               <button class="btn btn-white border-radius-lg p-2 mt-n4 mt-md-2" type="button" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
                 <i class="material-symbols-rounded p-2">home</i>
@@ -107,7 +31,7 @@
                   <h6 class="text-uppercase mb-0 ms-1 text-white">Cloudy</h6>
                 </div>
                 <div class="ms-auto">
-                  <img class="w-50 float-end mt-n6 mt-lg-n4" src="../assets/img/small-logos/icon-sun-cloud.png" alt="image sun">
+                  <img class="w-50 float-end mt-n6 mt-lg-n4" src="{{ asset('assets/images/small-logos/icon-sun-cloud.png')}}" alt="image sun">
                 </div>
               </div>
               <div class="row mt-4">
@@ -171,7 +95,6 @@
                 <div class="col-lg-4 col-md-12 mt-4 mt-lg-0">
                   <div class="card card-background card-background-mask-dark move-on-hover align-items-start">
                     <div class="cursor-pointer">
-                      <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80')"></div>
                       <div class="card-body">
                         <h5 class="text-white mb-0">Night Jazz</h5>
                         <p class="text-white text-sm">Gary Coleman</p>
@@ -196,16 +119,16 @@
                         <div class="ms-auto">
                           <div class="avatar-group">
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="2 New Messages">
-                              <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                              <img alt="Image placeholder" src="{{ asset('assets/images/team-1.jpg')}}">
                             </a>
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="1 New Message">
-                              <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                              <img alt="Image placeholder" src="{{ asset('assets/images/team-2.jpg')}}">
                             </a>
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="13 New Messages">
-                              <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                              <img alt="Image placeholder" src="{{ asset('assets/images/team-3.jpg')}}">
                             </a>
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="7 New Messages">
-                              <img alt="Image placeholder" src="../assets/img/team-4.jpg">
+                              <img alt="Image placeholder" src="{{ asset('assets/images/team-4.jpg')}}">
                             </a>
                           </div>
                         </div>
@@ -222,10 +145,10 @@
   </div>
 
   <!--   Core JS Files   -->
-  <script src="../assets/js/core/popper.min.js"></script>
-  <script src="../assets/js/core/bootstrap.min.js"></script>
-  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="{{ asset('assets/js/core/popper.min.js')}}"></script>
+  <script src="{{ asset('assets/js/core/bootstrap.min.js')}}"></script>
+  <script src="{{ asset('assets/js/plugins/perfect-scrollbar.min.js')}}"></script>
+  <script src="{{ asset('assets/js/plugins/smooth-scrollbar.min.js')}}"></script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -238,5 +161,5 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/material-dashboard.min.js?v=3.2.0"></script>
+  <script src="{{ asset('assets/js/material-dashboard.min.js?v=3.2.0')}}"></script>
   @endsection

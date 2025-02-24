@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
+use App\Http\Controllers\Auth\RegisteredUserController;
 
 
 
@@ -33,10 +35,6 @@ Route::get('/map', [PageController::class, 'viewMap'])->name('map');
 
 Route::get('/typography', [PageController::class, 'viewTypography'])->name('typography');
 
-Route::get('/sign-in', [PageController::class, 'viewSign_in'])->name('sign-in');
-
-Route::get('/sign-up', [PageController::class, 'viewSign_up'])->name('sign-up');
-
 
 
 Route::get('/dashboard', function () {
@@ -45,7 +43,7 @@ Route::get('/dashboard', function () {
 
 
 
-Route::get('login', [AuthenticatedSessionController::class, 'create'])
+Route::get('/', [AuthenticatedSessionController::class, 'create'])
     ->name('login');
 
 Route::post('login', [AuthenticatedSessionController::class, 'store']);
